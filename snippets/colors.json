@@ -1,0 +1,66 @@
+{
+  "black": {
+    "prefix": "black",
+    "body": "30;"
+  },
+  "bblack": {
+    "prefix": "bblack",
+    "body": "40;"
+  },
+  "red": {
+    "prefix": "red",
+    "body": "31;"
+  },
+  "bred": {
+    "prefix": "bred",
+    "body": "41;"
+  },
+  "green": {
+    "prefix": "green",
+    "body": "32;"
+  },
+  "bgreen": {
+    "prefix": "bgreen",
+    "body": "42;"
+  },
+  "yellow": {
+    "prefix": "yellow",
+    "body": "33;"
+  },
+  "byellow": {
+    "prefix": "byellow",
+    "body": "43;"
+  },
+  "blue": {
+    "prefix": "blue",
+    "body": "34;"
+  },
+  "bblue": {
+    "prefix": "bblue",
+    "body": "44;"
+  },
+  "magenta": {
+    "prefix": "magenta",
+    "body": "35;"
+  },
+  "bmagenta": {
+    "prefix": "bmagenta",
+    "body": "45;"
+  },
+  "cyan": {
+    "prefix": "cyan",
+    "body": "36;"
+  },
+  "bcyan": {
+    "prefix": "bcyan",
+    "body": "46;"
+  },
+  "white": {
+    "prefix": "white",
+    "body": "37;"
+  },
+  "bwhite": {
+    "prefix": "bwhite",
+    "body": "47;"
+  }
+}

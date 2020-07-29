@@ -1,0 +1,72 @@
+{
+  "name": "dircolors",
+  "displayName": "dircolors",
+  "description": "Syntax highlighting and snippets for .dircolors files",
+  "version": "1.0.0",
+  "author": "Daniel Grefberg",
+  "publisher": "duniul",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duniul/vscode-dircolors"
+  },
+  "bugs": {
+    "url": "https://github.com/duniul/vscode-dircolors/issues"
+  },
+  "homepage": "https://github.com/duniul/vscode-dircolors",
+  "icon": "images/dircolors-icon.png",
+  "engines": {
+    "vscode": "^1.47.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Snippets"
+  ],
+  "keywords": [
+    "shell",
+    "bash",
+    "zsh",
+    "fish",
+    "dircolors",
+    "LS_COLORS"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "dircolors",
+        "aliases": [
+          "dircolors",
+          "LS_COLORS"
+        ],
+        "extensions": [
+          ".dircolors"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "dircolors",
+        "scopeName": "source.dircolors",
+        "path": "./syntaxes/dircolors.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "dircolors",
+        "path": "./snippets/attributes.json"
+      },
+      {
+        "language": "dircolors",
+        "path": "./snippets/colors.json"
+      },
+      {
+        "language": "dircolors",
+        "path": "./snippets/keywords.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5",
+    "vsce": "^1.77.0"
+  }
+}

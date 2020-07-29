@@ -1,0 +1,26 @@
+{
+  "none": {
+    "prefix": "none",
+    "body": "00;"
+  },
+  "bold": {
+    "prefix": "bold",
+    "body": "01;"
+  },
+  "underscore": {
+    "prefix": ["_", "underscore"],
+    "body": "04;"
+  },
+  "blink": {
+    "prefix": "blink",
+    "body": "05;"
+  },
+  "reverse": {
+    "prefix": "reverse",
+    "body": "07;"
+  },
+  "concealed": {
+    "prefix": "concealed",
+    "body": "08;"
+  }
+}

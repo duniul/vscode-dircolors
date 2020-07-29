@@ -1,0 +1,50 @@
+{
+  "term": {
+    "prefix": "T",
+    "body": "TERM $1\n"
+  },
+  "color": {
+    "prefix": "C",
+    "body": "COLOR $1\n"
+  },
+  "eightbit": {
+    "prefix": "E",
+    "body": "EIGHTBIT $1\n"
+  },
+  "option": {
+    "prefix": "O",
+    "body": "OPTION $1\n"
+  },
+  "normal": {
+    "prefix": "N",
+    "body": "NORMAL 00\n"
+  },
+  "file": {
+    "prefix": "F",
+    "body": "FILE $1\n"
+  },
+  "dir": {
+    "prefix": "D",
+    "body": "DIR $1\n"
+  },
+  "link": {
+    "prefix": "L",
+    "body": "LINK $1\n"
+  },
+  "missing": {
+    "prefix": "M",
+    "body": "MISSING $1\n"
+  },
+  "sock": {
+    "prefix": "S",
+    "body": "SOCK $1\n"
+  },
+  "blk": {
+    "prefix": "B",
+    "body": "BLK $1\n"
+  },
+  "exec": {
+    "prefix": "X",
+    "body": "EXEC $1\n"
+  }
+}
