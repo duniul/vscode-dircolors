@@ -1,7 +1,9 @@
-node_modules/**
-.vscode/**
-.vscode-test/**
+.vscode/
+.vscode-test/
+node_modules/
+src/
 .gitignore
 .prettierrc
 .yarn.lock
+yarn-error.log
 *.vsix

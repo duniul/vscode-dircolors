@@ -4,12 +4,23 @@
 
 # vscode-dircolors
 
-📁🌈 VS Code syntax highlighting and snippets for `.dircolors` files.
+📁🌈 VS Code syntax highlighting, formatting and snippets for `.dircolors` files.
 
 ## Syntax highlighting
 
 - Highlights comments, keywords, file extensions and values.
 - Enables auto-commenting.
+
+## Formatting
+
+Formatting is automatically enabled for `.dircolors` files.
+
+### Configuration
+
+| Key                       | Default | Description                                                                                                                                                                     |
+| ------------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `dircolors.maxSpacing`    | `1`     | Minimum number of spaces between keyword and value.                                                                                                                             |
+| `dircolors.formatColumns` | `true`  | Toggle whether or not neighboring declarations should be formatted in columns (example: [true](images/column-format-enabled.png)/[false](images/column-format-disabled.png)). |
 
 ## Snippets
 
