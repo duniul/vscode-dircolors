@@ -2,7 +2,7 @@
   "name": "dircolors",
   "displayName": "dircolors",
   "description": "Syntax highlighting, formatting and snippets for .dircolors files",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Daniel Grefberg",
   "publisher": "duniul",
   "repository": {
